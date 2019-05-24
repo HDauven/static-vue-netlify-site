@@ -61,5 +61,9 @@ module.exports = {
      ** Modules configuration
      */
     '@nuxtjs/pwa'
-  ]
+  ],
+  manifest: {
+    name: 'Static Nuxt Netlify PWA test',
+    lang: 'en'
+  }
 }

@@ -39,6 +39,9 @@ module.exports = {
     /*
      ** Run ESLint on save
      */
+    analyze: {
+      analyzerMode: 'static'
+    },
     extend(config, {
       isDev,
       isClient
